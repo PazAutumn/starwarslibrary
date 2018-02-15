@@ -1,19 +1,24 @@
-const form = document.getElementById('searchingCharacter');
-const searchField = document.getElementById('search-char');
-const responseContainer = document.getElementById('charContainer');
+const char = document.getElementById('charContainer');
+const responseContainer = document.getElementById('charInfo');
 let searchedChar;
+let number;
 
-form.addEventListener('submit', function(e) {
-  e.preventDefault();
+char.addEventListener('click', function(event) {
+  let evento = event.target;
+  console.log(evento);
+  const aidi = evento.getAttribute('id');
+  const number = aidi.substring(4);
+  console.log(number);
+
   responseContainer.innerHTML = '';
-  searchedChar = searchField.value;
+  searchedChar = number;
   getCharacter();
-});
+})
 
 function getCharacter() {
   // creo la petición
   const charRequest = new XMLHttpRequest();
-  charRequest.open('GET', `https://swapi.co/api/people/${searchedChar}`);
+  charRequest.open('GET', `https://swapi.co/api/people/${searchedChar}/`);
   charRequest.onload = addChar;
   charRequest.onerror = handleError;
   // envío la petición

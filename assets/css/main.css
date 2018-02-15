@@ -22,34 +22,39 @@ h2 {
   background-size: 500%;
 }
 
-#uno {
+.char:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#img-1 {
   background-position: 70% 15%;
 }
 
-#dos {
+#img-2 {
   background-position: -2% 16%;
 }
 
-#tres {
+#img-3 {
   background-position: 22% 16%;
 }
 
-#cuatro {
+#img-4 {
   background-position: 101% 52%;
 }
 
-#cinco {
+#img-5 {
   background-position: 95% 16%;
 }
 
-#seis {
+#img-11 {
   background-position: 18% 87%;
 }
 
-#siete {
+#img-20 {
   background-position: 46% 16%;
 }
 
-#ocho {
+#img-22 {
   background-position: 19% 52%;
 }
