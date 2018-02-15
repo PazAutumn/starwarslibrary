@@ -13,3 +13,43 @@ h2 {
   color: #FFE919;
   background-color: transparent;
 }
+
+.char {
+  width: 25%;
+  height: 10em;
+  border: 5px solid black;
+  background-image: url(../img/1.jpg);
+  background-size: 500%;
+}
+
+#uno {
+  background-position: 70% 15%;
+}
+
+#dos {
+  background-position: -2% 16%;
+}
+
+#tres {
+  background-position: 22% 16%;
+}
+
+#cuatro {
+  background-position: 101% 52%;
+}
+
+#cinco {
+  background-position: 95% 16%;
+}
+
+#seis {
+  background-position: 18% 87%;
+}
+
+#siete {
+  background-position: 46% 16%;
+}
+
+#ocho {
+  background-position: 19% 52%;
+}
