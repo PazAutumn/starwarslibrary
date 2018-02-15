@@ -2,11 +2,14 @@ body {
   background-color: #000;
 }
 
-header h2 {
-  margin: 1em;
-  color: #FFE919;
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-form {
-  margin: 3em;
+h2 {
+  margin: 1em;
+  color: #FFE919;
+  background-color: transparent;
 }
