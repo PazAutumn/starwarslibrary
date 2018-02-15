@@ -15,6 +15,7 @@ char.addEventListener('click', function(event) {
   getCharacter();
 })
 
+
 function getCharacter() {
   // creo la petición
   const charRequest = new XMLHttpRequest();
@@ -34,4 +35,9 @@ function addChar() {
   const data = JSON.parse(this.responseText);
   const response = data.response;
   console.log(data);
-}
+
+responseContainer.addEventListener('click', function(e) {
+  name = document.getElementById('uno').getAttribute(title);
+  console.log(name);
+  
+})
