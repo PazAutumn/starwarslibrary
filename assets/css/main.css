@@ -1,0 +1,12 @@
+body {
+  background-color: #000;
+}
+
+header h2 {
+  margin: 1em;
+  color: #FFE919;
+}
+
+form {
+  margin: 3em;
+}
