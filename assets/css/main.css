@@ -1,5 +1,11 @@
+@font-face {
+  font-family: StarJedi;
+  src: url(../font/Starjedi.ttf)
+}
+
 body {
   background-color: #000;
+  height: 100vh;
 }
 
 #particles-js {
@@ -12,7 +18,8 @@ body {
   position: inherit;
 }
 
-h2 {
+h1 {
+  font-family: StarJedi, monospace;
   margin: 1em;
   color: #FFE919;
 }
@@ -60,5 +67,31 @@ h2 {
 }
 
 #img-22 {
-  background-position: 19% 52%;
+  background-position: 21.5em 19.5em;
+}
+
+#img-35 {
+  background-position: 14em 11em;
+}
+
+#img-88 {
+  background-position: 28.5em 19.5em;
+}
+
+.modal-content {
+  background-color: #000;
+  font-family: monospace;
+}
+
+.modal-title {
+  color: #FFE919;
+  font-weight: 700;
+}
+
+.modal-body p {
+  color: #1AD5D2;
+}
+
+.modal-header h4 {
+  font-size: 3em;
 }
