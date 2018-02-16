@@ -5,10 +5,10 @@ let number;
 
 char.addEventListener('click', function(event) {
   let evento = event.target;
-  console.log(evento);
+  /* console.log(evento);*/
   const aidi = evento.getAttribute('id');
   const number = aidi.substring(4);
-  console.log(number);
+  /* console.log(number);*/
 
   /* responseContainer.innerHTML = ''; */
   searchedChar = number;
@@ -25,7 +25,7 @@ function addChar() {
       return response.json();
     })
     .then(function(data) {
-      console.log(data);
+      /* console.log(data); */
       // Let's make some HTML!
       let html = `<div class="modal-dialog modal-sm" role="document">
     <div class="modal-content">
